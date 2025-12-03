@@ -1,0 +1,282 @@
+[
+    {
+        "id": "finger_thin_cylinder",
+        "name_en": "4-Finger Thin Cylinder Grip",
+        "pose": "The thumb cooperates with the other three fingers to wrap around a long, thin cylinder; the pinky is suspended or touches lightly.",
+        "features": "Medium-to-high finger flexion angle; finger pads conform to the cylinder surface; thumb opposes the index/middle fingers to create stable clamping.",
+        "usage": "Grasping test tubes, thin handles, or small bottles with small diameters requiring stable torque.",
+        "intents": ["Thin Handle Grasping", "Stable Holding", "Continuous Operation"]
+    },
+    {
+        "id": "adduction_grip",
+        "name_en": "Adduction Grip",
+        "pose": "Multiple fingers are adducted (close together), and the thumb presses against the finger array from the outside to form a clamp.",
+        "features": "Small inter-finger spacing; finger array forms a planar surface; thumb applies lateral pressure for torque resistance.",
+        "usage": "Lateral clamping and transporting of thin, flat, or edge-like objects.",
+        "intents": ["Edge Clamping", "Transporting", "Pose Stability"]
+    },
+    {
+        "id": "bowl",
+        "name_en": "Bowl Grip / Platter Grip",
+        "pose": "Fingers arc upward to support; thumb forms a shallow opposing arc.",
+        "features": "Fingers are distributed evenly in an arch; palm maintains a certain opening; thumb provides anti-slip opposing force.",
+        "usage": "Supporting/Lifting upward-opening bowls, cups, or shallow containers.",
+        "intents": ["Supporting/Lifting", "Translational Transport", "Anti-Tilting"]
+    },
+    {
+        "id": "box",
+        "name_en": "Box Grasp",
+        "pose": "Multiple fingers flex to wrap around the box's side walls; thumb presses the opposite side to enclose it.",
+        "features": "Medium-to-high finger flexion; large contact area between finger pads and the plane; thumb opposes index/middle fingers.",
+        "usage": "Grasping and transporting medium-to-small sized prisms or packaging boxes.",
+        "intents": ["Grasping", "Transporting", "Placing"]
+    },
+    {
+        "id": "canteen",
+        "name_en": "Canteen Handle Grip",
+        "pose": "Thumb opposes the other fingers to encircle a curved handle, forming a closed loop.",
+        "features": "Proximal phalanges flexed; distal phalanges fit moderately; forms force closure to prevent slipping.",
+        "usage": "Grasping water canteens or jugs with handles for lifting or pouring.",
+        "intents": ["Lifting", "Pouring", "Carrying"]
+    },
+    {
+        "id": "distal_type",
+        "name_en": "Distal Precision Pinch",
+        "pose": "Thumb pad pinches against the distal pads of the index/middle fingers; other fingers retracted.",
+        "features": "Controllable distal flexion; small contact area at fingertips; precise relative positioning.",
+        "usage": "Picking up or adjusting small precision parts (screws, tiny electronic components).",
+        "intents": ["Precision Picking", "Fine Adjustment", "Gentle Placement"]
+    },
+    {
+        "id": "flat",
+        "name_en": "Flat Palm Press",
+        "pose": "Palm and fingers extended flat; fingertips slightly flexed to press widely on the target plane.",
+        "features": "Fingers spread out; contact creates large-area pressure; thumb abduction aids stability.",
+        "usage": "Pressing or covering large planar targets (button panels, covers).",
+        "intents": ["Covering/Pressing", "Fixing", "Sliding Control"]
+    },
+    {
+        "id": "fully_open",
+        "name_en": "Fully Open",
+        "pose": "Five fingers maximally abducted and extended; palm completely open.",
+        "features": "Large inter-finger angles; small flexion angles; preparatory pose before contact.",
+        "usage": "Initial open pose for scanning, approaching, or enveloping.",
+        "intents": ["Preparation", "Hand Reset", "Expanded Coverage"]
+    },
+    {
+        "id": "grasp_big_cylinder",
+        "name_en": "Large Cylinder Power Grasp",
+        "pose": "Multiple fingers flex significantly to embrace a thick cylinder; thumb opposes the other fingers.",
+        "features": "High proximal flexion; multi-point contact on the curved surface; forms a resultant force ring.",
+        "usage": "Grasping bottles, cans, thick rods, or large cylinders for transport or stabilization.",
+        "intents": ["Power Grasping", "Transporting", "Holding"]
+    },
+    {
+        "id": "grasp_small_spherical",
+        "name_en": "Small Spherical Grasp",
+        "pose": "Thumb and 3-4 fingers flex and converge uniformly to wrap a small sphere.",
+        "features": "Small fingertip spacing; multi-sided contact; light squeezing to prevent slipping.",
+        "usage": "Holding small balls, round fruits, or spherical parts.",
+        "intents": ["Enveloping", "Moving", "Stabilizing"]
+    },
+    {
+        "id": "grasp_spherical",
+        "name_en": "Spherical Power Grasp",
+        "pose": "Five fingers flex into an arc surface distributed evenly around a medium sphere; space left in the palm.",
+        "features": "Moderate finger flexion; balanced fingertip positions; resists multi-directional slip.",
+        "usage": "Grasping medium-sized spheres (balls, round shells, sensor spheres).",
+        "intents": ["Grasping", "Pose Adjustment", "Transporting"]
+    },
+    {
+        "id": "grasp",
+        "name_en": "Basic Grasp",
+        "pose": "Thumb opposes multiple semi-flexed fingers, forming a generalized enclosure.",
+        "features": "High versatility; many contact fingers; adjustable force direction.",
+        "usage": "Default hand shape for general object grasping.",
+        "intents": ["Grasp Initialization", "Holding", "Transition Pose"]
+    },
+    {
+        "id": "hold_board",
+        "name_en": "Board Grip / Plate Pinch",
+        "pose": "Thumb opposes the finger array to clamp a thin board edge; other fingers provide lateral support.",
+        "features": "Linear/narrow surface contact; orthogonal clamping; prevents board flipping.",
+        "usage": "Grasping and transporting thin boards, cards, or small flat plates.",
+        "intents": ["Clamping", "Flipping", "Positioning/Inserting"]
+    },
+    {
+        "id": "hold_L",
+        "name_en": "L-Shape Support Grasp",
+        "pose": "Thumb presses one arm of the L-shape; other fingers wrap the other arm to lock the corner.",
+        "features": "Uses internal corner constraints for rotation prevention; differentiated finger flexion for fitting.",
+        "usage": "Grasping parts with right-angle flanges or L-brackets.",
+        "intents": ["Corner Locking", "Stable Transporting", "Orientation Maintenance"]
+    },
+    {
+        "id": "hold_tools_with_trigger",
+        "name_en": "Trigger Tool Grip",
+        "pose": "Thumb and middle/ring fingers wrap the handle; index finger extends independently to the trigger.",
+        "features": "High freedom of movement for the index finger; other fingers provide holding force; thumb provides lateral anti-torsion.",
+        "usage": "Operating spray guns or trigger-style tools (sprayers, power drills).",
+        "intents": ["Holding", "Triggering", "Continuous Control"]
+    },
+    {
+        "id": "Irregular_furry_toys",
+        "name_en": "Irregular Soft Object Grasp",
+        "pose": "Fingers flex dispersedly to adapt to contours; thumb opposes to form an enclosed area.",
+        "features": "Dispersed fingertip pressure; high adaptability; allows for some gaps.",
+        "usage": "Grasping irregular and compressible plush toys or soft objects.",
+        "intents": ["Adaptive Enveloping", "Flexible Stability", "Transporting"]
+    },
+    {
+        "id": "lateral",
+        "name_en": "Lateral Pinch / Key Grip",
+        "pose": "Thumb and the side of the index/middle fingers clamp the object's side wall.",
+        "features": "Contact surface is finger side/pad side; suitable for thin sheets or edge parts.",
+        "usage": "Grasping edges of thin sheets/cards or pulling out drawer tags.",
+        "intents": ["Side Clamping", "Extracting", "Placing"]
+    },
+    {
+        "id": "pan_with_handle",
+        "name_en": "Pan Handle Grip",
+        "pose": "Thumb and 2-3 fingers wrap around a thick, short handle; high proximal flexion.",
+        "features": "Long lever arm; torque resistance; thumb presses down to close the grip.",
+        "usage": "Lifting or rotating pots, pans, or vessels with handles.",
+        "intents": ["Lifting", "Tilting/Pouring", "Transporting"]
+    },
+    {
+        "id": "paper2",
+        "name_en": "Paper Pinch",
+        "pose": "Thumb and index tip lightly pinch the edge of a thin sheet; other fingers retracted slightly.",
+        "features": "Low force; narrow contact line; facilitates quick release.",
+        "usage": "Picking up single sheets or small amounts of thin paper/receipts.",
+        "intents": ["Light Pinching", "Transferring", "Releasing"]
+    },
+    {
+        "id": "pencil_2",
+        "name_en": "Pencil Grip 2 (Static Tripod)",
+        "pose": "Thumb, index, and middle fingers form a 3-point clamp on a thin rod; straighter angle.",
+        "features": "Precise control with distal phalanges; stable support; pinky assists with suspension balance.",
+        "usage": "Holding writing tools for stable pointing or rotation.",
+        "intents": ["Holding", "Micro-rotation", "Pointing"]
+    },
+    {
+        "id": "pencil_dasheng",
+        "name_en": "Thick Pencil Grip",
+        "pose": "Three fingers clamp a thicker rod; thumb opposes to increase coverage area.",
+        "features": "Slightly increased inter-finger angle; large contact area; reduces local pressure.",
+        "usage": "Holding thick pens/markers for writing or pointing.",
+        "intents": ["Writing", "Pointing", "Rotating Orientation"]
+    },
+    {
+        "id": "pick_thin_plane_like_paper",
+        "name_en": "Thin Sheet Pickup",
+        "pose": "Distal joint of index finger and thumb pad lightly pinch the edge, then lift.",
+        "features": "High-precision tip contact; low force output; prevents bending deformation.",
+        "usage": "Separating and picking up thin sheets/labels/metal flakes from a flat surface.",
+        "intents": ["Separating", "Picking Up", "Transferring"]
+    },
+    {
+        "id": "pick_very_thin_things_like_needle",
+        "name_en": "Needle Pickup / Micro-Object Pickup",
+        "pose": "Thumb and index tip make point contact to pinch needle-like or filamentous objects.",
+        "features": "Extremely small contact point; high fingertip alignment; requires precise positioning.",
+        "usage": "Picking up needles, thin rods, or micro-cylindrical components.",
+        "intents": ["Precision Picking", "Precise Placing", "Alignment"]
+    },
+    {
+        "id": "quadpod",
+        "name_en": "Quadpod Grasp",
+        "pose": "Thumb opposes the tips of three fingers to form a stable four-point frame.",
+        "features": "Multi-point even force distribution; stronger rotation resistance; fingertips enclose a small space.",
+        "usage": "Fine holding of small objects requiring higher stability.",
+        "intents": ["Stable Holding", "Fine Adjustment", "Anti-Rotation"]
+    },
+    {
+        "id": "ring",
+        "name_en": "Ring Grasp",
+        "pose": "Fingertips insert into or fit the inner side of the ring; thumb and one finger press against the outside.",
+        "features": "Forms internal/external opposing pressure; prevents ring detachment; allows for rotation.",
+        "usage": "Picking up rings, handle loops, or sleeve-like parts.",
+        "intents": ["Grasping", "Moving", "Rotating"]
+    },
+    {
+        "id": "scissors",
+        "name_en": "Scissors Grip",
+        "pose": "Thumb and index/middle fingers insert into scissor loops respectively to form fulcrums.",
+        "features": "Finger flexion/extension drives opening/closing; thumb independently controls one blade.",
+        "usage": "Operating standard scissors for cutting.",
+        "intents": ["Holding", "Cutting", "Open/Close Control"]
+    },
+    {
+        "id": "scissors2",
+        "name_en": "Improved Scissors Grip",
+        "pose": "Thumb in the upper loop, middle finger in the lower loop, index finger supports and guides.",
+        "features": "Separates guidance from driving force; improves cutting stability.",
+        "usage": "Cutting tasks requiring more precise path control.",
+        "intents": ["Precise Cutting", "Path Control", "Stable Holding"]
+    },
+    {
+        "id": "shampoo",
+        "name_en": "Pump Bottle Grip",
+        "pose": "Thumb opposes the finger array to embrace the bottle body; index finger extends independently over the pump head.",
+        "features": "Stable handle; single finger applies pressure; other fingers remain vertical for anti-torsion.",
+        "usage": "Pressing pump-style shampoo/detergent containers.",
+        "intents": ["Holding", "Pressing", "Quantitative Output"]
+    },
+    {
+        "id": "small_cylinder",
+        "name_en": "Small Cylinder Grip",
+        "pose": "Thumb and multiple fingers flex tightly around a small diameter cylinder to form a complete ring.",
+        "features": "Small distance between fingertips and palm; tight wrapping; high anti-slip force.",
+        "usage": "Grasping small bottles, short rods, or small tool handles.",
+        "intents": ["Locked Holding", "Transporting", "Fine Rotation"]
+    },
+    {
+        "id": "sphere_3_finger",
+        "name_en": "3-Finger Spherical Pinch",
+        "pose": "Tips of thumb, index, and middle fingers curve to wrap the lower part of a small sphere.",
+        "features": "Three points form a stable triangle; balanced contact distribution; allows pose fine-tuning.",
+        "usage": "Grasping tiny spherical objects or spheres requiring top visibility.",
+        "intents": ["Precise Grasping", "Pose Adjustment", "Pick and Place"]
+    },
+    {
+        "id": "spray_bottle",
+        "name_en": "Spray Bottle Trigger Grip",
+        "pose": "Thumb and rear three fingers wrap around the bottle neck; index finger flexes on the trigger.",
+        "features": "Index finger pulls independently; other fingers provide reaction force; thumb prevents rotation.",
+        "usage": "Operating spray bottles for spraying.",
+        "intents": ["Holding", "Triggering Spray", "Rhythm Control"]
+    },
+    {
+        "id": "tape",
+        "name_en": "Tape Roll Grip",
+        "pose": "Fingers insert into the roll's inner edge or wrap the outside; thumb opposes to hold.",
+        "features": "Combination of internal/external contact; prevents uncontrolled rotation; allows axial extraction.",
+        "usage": "Picking up and aligning tape rolls for tearing.",
+        "intents": ["Grasping", "Aligning", "Tearing Assistance"]
+    },
+    {
+        "id": "tools_with_handle",
+        "name_en": "Handled Tool Grip",
+        "pose": "Multiple fingers wrap around a straight or slightly elliptical handle; thumb applies pressure to form a stable ring.",
+        "features": "Proximal flexion; adjustable distal direction; medium-to-high torque resistance.",
+        "usage": "Grasping hammer handles, screwdrivers, or kitchen tools for use.",
+        "intents": ["Holding", "Applying Force", "Operating"]
+    },
+    {
+        "id": "tripod",
+        "name_en": "Tripod Pinch",
+        "pose": "Thumb, index, and middle finger pads form a 3-point hold on a thin rod or small part.",
+        "features": "Triangular support; balance between precision and stability; pinky and ring fingers retracted.",
+        "usage": "Holding medium-thin pens/rods for pointing or light rotation.",
+        "intents": ["Precision Holding", "Micro-rotation", "Pointing"]
+    },
+    {
+        "id": "writing_tripod",
+        "name_en": "Writing Tripod Grip",
+        "pose": "Thumb, index, and middle fingers form a tilted triangle supporting the pen; fingertips near the nib.",
+        "features": "Fine control; stable support; allows fast micro-adjustment of the nib direction.",
+        "usage": "Writing, drawing, or continuous trajectory output tasks.",
+        "intents": ["Writing", "Drawing", "Precise Positioning"]
+    }
+]
